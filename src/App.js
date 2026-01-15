@@ -1,14 +1,9 @@
-
-import react from 'react';
-import Button from './class-components';
-import { Calculator2 } from './calculator';
-import { Eventdata } from './event-data';
-
+import React from "react";
+import RefsArray from "./refs-array"
+ 
+ 
 function App() {
-  
-  return <Eventdata></Eventdata>
-  
-}
-
+  return <RefsArray/>
+  }
+ 
 export default App;
-
