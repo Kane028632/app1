@@ -1,8 +1,6 @@
 import React from "react";
-import Router2 from "./router2";
-import Router3 from "./router3";
-import FromText from "./from-text";
+import FormSelectFile from "./form-select-flie";
 
 export default function App() {
-  return <FromText />;
+  return <FormSelectFile></FormSelectFile>
 }

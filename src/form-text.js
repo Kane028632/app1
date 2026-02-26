@@ -22,7 +22,7 @@ export default function FromText() {
     return(
         <div className="mt-4 mx-auto p-3 rounded"
             style={{ width:'400px', background:'#cee'}}>
-        <fom>
+        <form>
             <div className="form-group mb-2">
                 <label htmlFor="login">ชื่อผู้ใช้ (Login)</label>
                 <input type='text' id='login' name='login' maxLength='20'
